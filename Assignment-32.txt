@@ -1,0 +1,5 @@
+-- Using AND
+SELECT * FROM student WHERE score > 70 AND city = 'Delhi';
+
+-- Using OR
+SELECT * FROM student WHERE score > 90 OR city = 'Mumbai';

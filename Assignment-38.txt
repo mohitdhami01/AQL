@@ -1,0 +1,5 @@
+-- Find employees whose name starts with 'J'
+SELECT * FROM Emp WHERE name LIKE 'J%';
+
+-- Find employees whose name ends with 'n'
+SELECT * FROM Emp WHERE name LIKE '%n';

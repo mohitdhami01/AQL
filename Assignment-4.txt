@@ -1,0 +1,5 @@
+USE Comet;
+
+ALTER TABLE Students
+ADD address VARCHAR(100),
+dob DATE;

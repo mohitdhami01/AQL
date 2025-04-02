@@ -1,0 +1,1 @@
+UPDATE student SET name = 'UpdatedName', age = 21 WHERE id = 103;

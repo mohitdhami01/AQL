@@ -1,0 +1,5 @@
+-- Find employees whose name starts with 'S', is followed by any single character, and ends with 'h'
+SELECT * FROM Emp WHERE name LIKE 'S_h%';
+
+-- Find employees whose name has an 'n' as the third character
+SELECT * FROM Emp WHERE name LIKE '__n%';

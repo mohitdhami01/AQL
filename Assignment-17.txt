@@ -1,0 +1,9 @@
+SELECT *
+INTO student_clone
+FROM student;
+
+USE comet;
+
+INSERT INTO student_clone
+SELECT *
+FROM student;

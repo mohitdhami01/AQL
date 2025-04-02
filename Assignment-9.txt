@@ -1,0 +1,9 @@
+USE comet;
+
+INSERT INTO comet (column1, column2, column3)
+VALUES
+    (value1_1, value1_2, value1_3),
+    (value2_1, value2_2, value2_3),
+    (value3_1, value3_2, value3_3),
+    (value4_1, value4_2, value4_3),
+    (value5_1, value5_2, value5_3);

@@ -1,0 +1,55 @@
+--Count(): Count the number of employees
+SELECT COUNT(*) FROM Emp;
+
+
+--Avg(): Find the average salary of employees
+SELECT AVG(salary) FROM Emp;
+
+
+
+--Min(): Find the minimum salary
+SELECT MIN(salary) FROM Emp;
+
+
+
+--Max(): Find the maximum salary
+SELECT MAX(salary) FROM Emp;
+
+
+
+--Sum(): Find the total salary of all employees
+SELECT SUM(salary) FROM Emp;
+
+
+
+--First(): Find the first entry in the table (varies based on database, assuming row number or order)
+SELECT * FROM Emp ORDER BY Eid ASC LIMIT 1;
+
+
+
+--Last(): Find the last entry in the table
+SELECT * FROM Emp ORDER BY Eid DESC LIMIT 1;
+
+
+
+--Ucase(): Convert employee names to uppercase
+SELECT UPPER(name) FROM Emp;
+
+
+
+
+--Lcase(): Convert employee names to lowercase
+SELECT LOWER(name) FROM Emp;
+
+
+
+
+
+--Mid(): Extract part of the employee name (assuming MID() is supported)
+SELECT SUBSTRING(name, 2, 3) FROM Emp;  -- Extract 3 characters starting from the 2nd
+
+
+
+
+--Round(): Round the employee's salary to the nearest whole number
+SELECT ROUND(salary) FROM Emp;

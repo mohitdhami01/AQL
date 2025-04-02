@@ -1,0 +1,48 @@
+Order by Clause:
+
+SELECT column1, column2
+FROM students
+ORDER BY column1 ASC, column2 DESC;
+
++++++++++++++++++++++++++++++++++++++++
+
+Group by Clause:
+
+SELECT column1, COUNT(*)
+FROM students
+GROUP BY column1;
+
++++++++++++++++++++++++++++++++++++++++
+
+Having Clause:
+
+SELECT column1, COUNT(*)
+FROM students
+GROUP BY column1
+HAVING COUNT(*) > 1;
+
++++++++++++++++++++++++++++++++++++++++
+
+Distinct Clause:
+
+SELECT DISTINCT column1
+FROM students;
+
++++++++++++++++++++++++++++++++++++++++
+
+Limit Clause (for SQL Server 2012 and later):
+
+SELECT column1, column2
+FROM students
+ORDER BY column1
+OFFSET 10 ROWS
+FETCH NEXT 5 ROWS ONLY;
+
++++++++++++++++++++++++++++++++++++++++
+
+Top Clause (for SQL Server):
+
+SELECT TOP 5 column1, column2
+FROM students
+ORDER BY column1;
+

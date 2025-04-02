@@ -1,0 +1,2 @@
+INSERT INTO student (id, name) VALUES (106, 'John');
+INSERT INTO student (id, name) VALUES (107, 'Jane');

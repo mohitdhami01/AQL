@@ -1,0 +1,3 @@
+USE comet;
+
+EXEC sp_rename 'student.dob', 'date_of_birth', 'COLUMN';

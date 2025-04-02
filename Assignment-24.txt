@@ -1,0 +1,11 @@
+-- Savepoint
+SAVEPOINT before_update;
+
+-- Update some data
+UPDATE student SET name = 'NewName' WHERE id = 105;
+
+-- Rollback to savepoint
+ROLLBACK TO before_update;
+
+-- Commit the transaction
+COMMIT;

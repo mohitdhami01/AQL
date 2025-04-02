@@ -1,0 +1,6 @@
+-- Find employees whose name has exactly 4 characters
+SELECT * FROM Emp WHERE name LIKE '____';
+
+-- Find employees whose name starts with 'A' and is followed by any three characters
+SELECT * FROM Emp WHERE name LIKE 'A___';
+

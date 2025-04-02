@@ -1,0 +1,2 @@
+-- Find employees whose name starts with 'A'
+SELECT * FROM Emp WHERE name LIKE 'A%';

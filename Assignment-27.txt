@@ -1,0 +1,3 @@
+SELECT * FROM student WHERE score > 75;
+SELECT * FROM student WHERE age < 25;
+SELECT * FROM student WHERE id = 102;

@@ -1,0 +1,4 @@
+USE comet;
+
+ALTER TABLE students
+ALTER COLUMN address VARCHAR(100);

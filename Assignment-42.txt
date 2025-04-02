@@ -1,0 +1,2 @@
+-- Find employees whose name does not start with 'A'
+SELECT * FROM Emp WHERE name NOT LIKE 'A%';

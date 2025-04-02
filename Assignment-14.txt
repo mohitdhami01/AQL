@@ -1,0 +1,45 @@
+AND Operator:
+
+SELECT column1, column2
+FROM students
+WHERE condition1 AND condition2;
+
++++++++++++++++++++++++++++++++++++++++
+
+OR Operator:
+
+SELECT column1, column2
+FROM students
+WHERE condition1 OR condition2;
+
++++++++++++++++++++++++++++++++++++++++
+
+IN Operator:
+
+SELECT column1, column2
+FROM students
+WHERE column1 IN ('value1', 'value2', 'value3');
+
++++++++++++++++++++++++++++++++++++++++
+
+BETWEEN Operator:
+
+SELECT column1, column2
+FROM students
+WHERE column1 BETWEEN 10 AND 20;
+
++++++++++++++++++++++++++++++++++++++++
+
+LIKE Operator:
+
+SELECT column1, column2
+FROM students
+WHERE column1 LIKE 'prefix%';
+
++++++++++++++++++++++++++++++++++++++++
+
+NOT Operator (NOT Between, NOT Like, NOT In, NOT AND, NOT OR):
+
+SELECT column1, column2
+FROM students
+WHERE NOT (column1 = 'value1' OR column2 < 10);

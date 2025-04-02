@@ -1,0 +1,2 @@
+CREATE TABLE student_clone AS 
+SELECT * FROM student;

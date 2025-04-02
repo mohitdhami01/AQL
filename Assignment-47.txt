@@ -1,0 +1,26 @@
+--Create Customers table:
+CREATE TABLE Customers (
+    CustomerName VARCHAR(50),
+    City VARCHAR(50),
+    Country VARCHAR(50)
+);
+
+
+--Create Suppliers table:
+CREATE TABLE Suppliers (
+    SupplierName VARCHAR(50),
+    City VARCHAR(50),
+    Country VARCHAR(50)
+);
+
+
+--Insert 2-3 rows into Suppliers table:
+INSERT INTO Suppliers (SupplierName, City, Country) 
+VALUES ('Supplier1', 'New York', 'USA'),
+       ('Supplier2', 'Delhi', 'India'),
+       ('Supplier3', 'Berlin', 'Germany');
+
+
+--Use INSERT INTO SELECT to insert data from Suppliers into Customers:
+INSERT INTO Customers (CustomerName, City, Country)
+SELECT SupplierName, City, Country FROM Suppliers;

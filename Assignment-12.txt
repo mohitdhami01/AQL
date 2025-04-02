@@ -1,0 +1,85 @@
+Equal (=) Operator:
+
+SELECT * FROM students WHERE column_name = 100;
+
++++++++++++++++++++++++++++++++++++++++
+
+Not Equal (<>) Operator:
+
+SELECT * FROM students WHERE column_name <> 50;
+
++++++++++++++++++++++++++++++++++++++++
+
+Greater Than (>) and Less Than (<) Operators:
+
+SELECT * FROM students WHERE column_name > 100;
+SELECT * FROM students WHERE column_name < 50;
+
++++++++++++++++++++++++++++++++++++++++
+
+Greater Than or Equal (>=) and Less Than or Equal (<=) Operators:
+
+SELECT * FROM students WHERE column_name >= 30;
+SELECT * FROM students WHERE column_name <= 60;
+
++++++++++++++++++++++++++++++++++++++++
+
+LIKE Operator (for pattern matching):
+
+SELECT * FROM students WHERE column_name LIKE 'prefix%';
+SELECT * FROM students WHERE column_name LIKE '%suffix';
+SELECT * FROM students WHERE column_name LIKE '%substring%';
+
++++++++++++++++++++++++++++++++++++++++
+
+IN Operator (for matching multiple values):
+
+SELECT * FROM students WHERE column_name IN ('value1', 'value2', 'value3');
+
++++++++++++++++++++++++++++++++++++++++
+
+AND and OR Operators (for combining conditions):
+
+SELECT * FROM students WHERE column1 = 'value1' AND column2 = 'value2';
+SELECT * FROM students WHERE column1 = 'value1' OR column2 = 'value2';
+
++++++++++++++++++++++++++++++++++++++++
+
+NOT Operator (for negating a condition):
+
+SELECT * FROM students WHERE NOT column_name = 'undesired_value';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

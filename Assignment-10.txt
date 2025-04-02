@@ -1,0 +1,7 @@
+USE comet;
+
+DELETE FROM students
+WHERE age>20
+
+DELETE FROM students
+WHERE age<10

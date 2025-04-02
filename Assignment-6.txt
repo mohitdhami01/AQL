@@ -1,0 +1,13 @@
+USE comet;
+
+ALTER TABLE student
+ADD address_temp VARCHAR(255);
+
+UPDATE student
+SET address_temp = address;
+
+-- Remove the old "address" column
+ALTER TABLE student
+DROP COLUMN address;
+
+EXEC sp_rename 'student.address_temp', 'address', 'COLUMN';

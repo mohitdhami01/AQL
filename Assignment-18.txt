@@ -1,0 +1,7 @@
+CREATE TABLE #TempTable (
+    ID INT PRIMARY KEY,
+    Name NVARCHAR(50)
+);
+
+INSERT INTO #TempTable (ID, Name)
+VALUES (1, 'John'), (2, 'Alice');

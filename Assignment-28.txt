@@ -1,0 +1,8 @@
+-- Using BETWEEN
+SELECT * FROM student WHERE score BETWEEN 70 AND 100;
+
+-- Using LIKE
+SELECT * FROM student WHERE name LIKE 'A%';
+
+-- Using IN
+SELECT * FROM student WHERE city IN ('Delhi', 'Mumbai');

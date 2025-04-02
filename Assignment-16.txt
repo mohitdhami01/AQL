@@ -1,0 +1,59 @@
+Count()
+
+SELECT COUNT(*) FROM students;
+
++++++++++++++++++++++++++++++++++++++++
+
+Avg()
+
+SELECT AVG(column_name) FROM students;
+
++++++++++++++++++++++++++++++++++++++++
+
+Min()
+
+SELECT MIN(column_name) FROM students;
+
++++++++++++++++++++++++++++++++++++++++
+
+Max() 
+
+SELECT MAX(column_name) FROM students;
+
++++++++++++++++++++++++++++++++++++++++
+
+Sum() 
+
+SELECT SUM(column_name) FROM students;
+
++++++++++++++++++++++++++++++++++++++++
+
+First()
+
+SELECT TOP 1 * FROM students;
+
++++++++++++++++++++++++++++++++++++++++
+
+Last()
+
+SELECT TOP 1 * FROM students ORDER BY column_name DESC;
+
++++++++++++++++++++++++++++++++++++++++
+
+Ucase() and Lcase()
+
+SELECT Ucase(column_name) FROM students;
+SELECT Lcase(column_name) FROM students;
+
+
++++++++++++++++++++++++++++++++++++++++
+
+Mid()
+
+SELECT MID(column_name, start_position, length) FROM students;
+
++++++++++++++++++++++++++++++++++++++++
+
+Round()
+
+SELECT ROUND(column_name, number_of_decimal_places) FROM students;

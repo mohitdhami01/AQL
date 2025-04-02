@@ -1,0 +1,1 @@
+SELECT salary FROM Emp ORDER BY salary DESC;
